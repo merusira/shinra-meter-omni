@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<events>
+
+
+	<!-- Noctenium Infusion 
+	<abnormality active="true" priority="7" ingame="true" remaining_seconds_before_trigger="0" rewarn_timeout_seconds="60" trigger="MissingDuringFight" target="Self">
+		<abnormalities>
+			<abnormality>902</abnormality>
+			<abnormality>910</abnormality>
+			<abnormality>911</abnormality>
+			<abnormality>912</abnormality>
+			<abnormality>913</abnormality>
+			<abnormality>916</abnormality>
+			<abnormality>917</abnormality>
+			<abnormality>920</abnormality>
+			<abnormality>921</abnormality>
+			<abnormality>922</abnormality>
+			<abnormality>929</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<text_to_speech text="Noctenium" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="100" rate="0"/>
+			</notify>
+		</actions>
+	</abnormality> -->
+	
+	<!-- Bravery 
+	<abnormality active="true" priority="7" ingame="true" remaining_seconds_before_trigger="0" rewarn_timeout_seconds="65" trigger="MissingDuringFight" target="Self">
+		<abnormalities>
+			<abnormality>4830</abnormality>
+			<abnormality>4831</abnormality>
+			<abnormality>4832</abnormality>
+			<abnormality>4833</abnormality>
+			<abnormality>4841</abnormality>
+			<abnormality>4886</abnormality>
+			<abnormality>6047</abnormality>
+			<abnormality>6067</abnormality>
+			<abnormality>5000013</abnormality>
+			<abnormality>5060001</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<text_to_speech text="Bravery" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="100" rate="0"/>
+			</notify>
+		</actions>
+	</abnormality> -->
+
+	<!-- Brooch 
+	<abnormality ingame="true" trigger="Added" target="Party">
+		<abnormalities>
+			<abnormality>999001026</abnormality>
+			<abnormality>999001027</abnormality>
+			<abnormality>999001028</abnormality>
+			<abnormality>999001029</abnormality>
+			<abnormality>999001030</abnormality>
+			<abnormality>999001031</abnormality>
+			<abnormality>999001032</abnormality>
+			<abnormality>999001033</abnormality>
+			<abnormality>999001034</abnormality>
+			<abnormality>999001035</abnormality>
+			<abnormality>999001036</abnormality>
+			<abnormality>999001037</abnormality>
+			<abnormality>999001038</abnormality>
+			<abnormality>999001044</abnormality>
+			<abnormality>999001045</abnormality>
+			<abnormality>999001052</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="1000" />
+				<text_to_speech text="{player_name} used brooch" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="80" rate="1"/>
+			</notify>
+		</actions>
+	</abnormality> -->
+
+
+	<!-- Glyphed Mana Barrier 
+	<abnormality ingame="true" trigger="Added" target="Party">
+		<abnormalities>
+			<abnormality>25010</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="1000" />
+				<text_to_speech text="Sorcerer Burst" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="80" rate="1"/>
+			</notify>
+		</actions>
+	</abnormality> -->
+
+	<!-- Bloodlust 
+	<abnormality ingame="true" trigger="Added" target="Party">
+		<abnormalities>
+			<abnormality>30270012</abnormality>
+			<abnormality>31100004</abnormality>
+			<abnormality>400700</abnormality>
+			<abnormality>400701</abnormality>
+			<abnormality>400702</abnormality>
+			<abnormality>400703</abnormality>
+			<abnormality>400704</abnormality>
+			<abnormality>400705</abnormality>
+			<abnormality>400702</abnormality>
+			<abnormality>400703</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="1000" />
+				<text_to_speech text="Berserker burst" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="80" rate="1"/>
+			</notify>
+		</actions>
+	</abnormality> -->
+
+	<!-- ICB 
+	<abnormality ingame="true" trigger="Added" target="Party">
+		<abnormalities>
+			<abnormality>300800</abnormality>
+			<abnormality>300801</abnormality>
+			<abnormality>300805</abnormality>
+			<abnormality>300806</abnormality>
+			<abnormality>300808</abnormality>
+			<abnormality>300850</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="1000" />
+				<text_to_speech text="Slayer burst" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="80" rate="1"/>
+			</notify>
+		</actions>
+	</abnormality> -->
+	
+	<!-- Shadow Reaping 
+	<abnormality ingame="true" trigger="Added" target="Party">
+		<abnormalities>
+			<abnormality>10151010</abnormality>
+			<abnormality>10151011</abnormality>
+			<abnormality>10151012</abnormality>
+			<abnormality>10151013</abnormality>
+			<abnormality>10151015</abnormality>
+			<abnormality>10151016</abnormality>
+			<abnormality>10151017</abnormality>
+			<abnormality>10151011</abnormality>
+			<abnormality>10151012</abnormality>
+			<abnormality>10151013</abnormality>
+			<abnormality>10151015</abnormality>
+			<abnormality>10151016</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="1000" />
+				<text_to_speech text="Reaper burst" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="80" rate="1"/>
+			</notify>
+		</actions>
+	</abnormality> -->
+
+	<!-- Titanic Wrath  -->
+	<abnormality ingame="true" remaining_seconds_before_trigger="5" rewarn_timeout_seconds="10" trigger="MissingDuringFight" target="PartySelfExcluded" ignore_classes="Priest">
+		<abnormalities>
+			<abnormality>601</abnormality>
+			<abnormality>602</abnormality>
+			<abnormality>603</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<text_to_speech text="buff {player_name}" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="100" rate="0"/>
+			</notify>
+		</actions>
+	</abnormality> 
+
+	<!-- United Thrall of Protection (endurance buff) -->
+	<abnormality active="true" ingame="true" remaining_seconds_before_trigger="60" rewarn_timeout_seconds="60" trigger="MissingDuringFight" target="PartySelfExcluded">
+		<area_boss_blacklist>
+			<blacklist area_id="950" />
+		</area_boss_blacklist>
+		<abnormalities>
+			<abnormality>27120</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<balloon title_text="{abnormality_name}" body_text="{player_name} {time_left} seconds" display_time="3000" />
+			</notify>
+		</actions>
+	</abnormality>
+	
+	<!-- United Thrall of Protection (endurance buff) -->
+	<abnormality active="true" priority="7" ingame="true" remaining_seconds_before_trigger="60" rewarn_timeout_seconds="60" trigger="MissingDuringFight" target="Self">
+		<area_boss_blacklist>
+			<blacklist area_id="126" />
+			<blacklist area_id="713" />
+			<blacklist area_id="813" />
+			<blacklist area_id="432" />
+			<blacklist area_id="431" />
+			<blacklist area_id="433" />		
+		</area_boss_blacklist>
+		<abnormalities>
+			<abnormality>27120</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<text_to_speech text="Endurance" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="100" rate="0"/>
+			</notify>
+		</actions>
+	</abnormality>
+	
+	<!-- Mana aura -->
+	<abnormality ingame="true" priority="7" rewarn_timeout_seconds="60" remaining_seconds_before_trigger="0" trigger="MissingDuringFight" target="Self">
+		<area_boss_blacklist>
+			<blacklist area_id="126" />
+			<blacklist area_id="713" />
+			<blacklist area_id="813" />
+			<blacklist area_id="432" />
+			<blacklist area_id="431" />
+			<blacklist area_id="433" />	
+		</area_boss_blacklist>
+		<abnormalities>
+			<abnormality>700330</abnormality>
+			<abnormality>700300</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<text_to_speech text="Mana aura" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="100" rate="0"/>
+			</notify>
+		</actions>
+	</abnormality>
+		
+	<!-- Endurance debuff -->
+	<abnormality active="true" ingame="true" rewarn_timeout_seconds="5" remaining_seconds_before_trigger="6" trigger="MissingDuringFight" target="Boss">
+		<area_boss_blacklist>
+			<blacklist area_id="126" />
+			<blacklist area_id="713" />
+			<blacklist area_id="813" />
+			<blacklist area_id="432" />
+			<blacklist area_id="431" />
+			<blacklist area_id="433" />				
+		</area_boss_blacklist>
+		<abnormalities>
+			<abnormality>27160</abnormality>
+			<abnormality>28090</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<text_to_speech text="Debuff" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="100" rate="0"/>
+			</notify>
+		</actions>
+	</abnormality>
+	
+	<!-- Crit/Swift aura -->
+	<abnormality ingame="true" priority="7" rewarn_timeout_seconds="15" remaining_seconds_before_trigger="0" trigger="MissingDuringFight" target="Self">
+		<abnormalities>
+			<abnormality>700600</abnormality>
+			<abnormality>700601</abnormality>
+			<abnormality>700602</abnormality>
+			<abnormality>700603</abnormality>
+			<abnormality>700700</abnormality>
+			<abnormality>700701</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<text_to_speech text="Crit aura" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="100" rate="0"/>
+			</notify>
+		</actions>
+	</abnormality>
+	
+	<!-- Party aura 
+	<abnormality ingame="true"  rewarn_timeout_seconds="20" remaining_seconds_before_trigger="0" trigger="MissingDuringFight" target="PartySelfExcluded">
+		<abnormalities>
+			<abnormality>700330</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<balloon title_text="{abnormality_name}" body_text="{player_name} missing auras" display_time="2000" />
+				<text_to_speech text="{player_name} missing auras" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="100" rate="0"/>
+			</notify>
+		</actions>
+	</abnormality> -->
+
+	<!-- Vow of Rebirth  -->
+	<abnormality ingame="true" rewarn_timeout_seconds="60" remaining_seconds_before_trigger="40" trigger="MissingDuringFight" target="Self">
+		<abnormalities>
+			<abnormality>700100</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="1000" />
+				<text_to_speech text="{abnormality_name}" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="100" rate="0"/>
+			</notify>
+		</actions>
+	</abnormality>
+	
+</events>

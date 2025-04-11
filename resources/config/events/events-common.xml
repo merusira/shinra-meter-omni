@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<events>
+
+		
+	<!-- Kaia (mystics too) Shield -->
+	<abnormality ingame="true" trigger="Added" target="Self">
+		<abnormalities>
+			<abnormality>800300</abnormality>
+			<abnormality>800301</abnormality>
+			<abnormality>800302</abnormality>
+			<abnormality>800303</abnormality>
+			<abnormality>800304</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="3000" />
+				<text_to_speech voice_position="0" voice_gender="Male" volume="70" text="Shield" />
+			</notify>
+		</actions>
+	</abnormality>
+	
+		<!-- Adrenalin 
+	<abnormality ingame="true" trigger="Added" target="Party">
+		<abnormalities>
+			<abnormality>200700</abnormality>
+			<abnormality>200701</abnormality>
+			<abnormality>200722</abnormality>
+			<abnormality>200731</abnormality>
+			<abnormality>200732</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="1000" />
+				<text_to_speech text="Adrenaline rush" voice_gender="Male" voice_age="Adult"  voice_position="0" volume="100" rate="1"/>
+			</notify>
+		</actions>
+	</abnormality> -->
+	
+		<!-- GAMBLE 
+		<abnormality ingame="true" trigger="Added" target="Party">
+		<abnormalities>
+			
+			<abnormality>100800</abnormality>
+			<abnormality>100801</abnormality>
+			
+		</abnormalities>
+		<actions>
+			<notify>
+				<balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="1000" />
+				<text_to_speech text="Warrior burst" voice_gender="Male" voice_age="Adult"  voice_position="0" volume="100" rate="1"/>
+			</notify>
+		</actions>
+	</abnormality> -->
+
+		<!-- Contagion -->	
+		<abnormality ingame="true" trigger="Added" target="Boss">
+		<abnormalities>
+			<abnormality>701720</abnormality>
+			<abnormality>701721</abnormality>
+			<abnormality>701722</abnormality>
+			<abnormality>701723</abnormality>
+			<abnormality>701724</abnormality>
+			<abnormality>701725</abnormality>
+			<abnormality>701726</abnormality>
+			<abnormality>701727</abnormality>
+			<abnormality>701728</abnormality>
+			<abnormality>701700</abnormality>
+			<abnormality>701701</abnormality>
+			<abnormality>701702</abnormality>
+			<abnormality>701703</abnormality>
+			<abnormality>701704</abnormality>
+			<abnormality>701705</abnormality>
+			<abnormality>701706</abnormality>
+			<abnormality>701707</abnormality>
+			<abnormality>701708</abnormality>
+		</abnormalities>
+		<actions>
+			<notify>
+				<balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="1000" />
+				<text_to_speech text="Contagion" voice_gender="Male" voice_age="Adult"  voice_position="0" volume="70" rate="1"/>
+			</notify>
+		</actions>
+	</abnormality>
+	
+			<!-- Hurricane added to the boss -->
+
+        <abnormality ingame="true" trigger="Added" target="Boss">
+        <abnormalities>
+            <abnormality>60010</abnormality>
+        </abnormalities>
+        <actions>
+            <notify>
+                <balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="1000" />
+                <text_to_speech text="Hurricane" voice_gender="Male" voice_age="Adult"  voice_position="0" volume="70" rate="1"/>
+            </notify>
+        </actions>
+    </abnormality>
+		
+	<!-- Hurricane 
+
+		<abnormality active="true" ingame="true" rewarn_timeout_seconds="115" remaining_seconds_before_trigger="0" trigger="MissingDuringFight" target="Boss">
+			<abnormalities>
+				<abnormality>60010</abnormality>
+			</abnormalities>
+			<actions>
+				<notify> -->
+					<!-- <balloon title_text="{abnormality_name}" body_text="{abnormality_name}" display_time="1000" /> -->
+					<!-- <text_to_speech text="no hurricane" voice_gender="Female" voice_age="Adult"  voice_position="0" volume="70" rate="1"/>
+				</notify>
+			</actions>
+		</abnormality> -->
+
+	</events>
